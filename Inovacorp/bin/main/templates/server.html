@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Monitoramento de Backups - InovaCorp</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .success {
+            color: green;
+        }
+        .error {
+            color: red;
+        }
+        .warning {
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de Monitoramento de Backups</h1>
+        <p>Esta página exibe o estado dos backups realizados pela InovaCorp.</p>
+        
+        <table>
+            <tr>
+                <th>Tipo de Backup</th>
+                <th>Última Execução</th>
+                <th>Estado</th>
+                <th>Tamanho</th>
+            </tr>
+            <tr>
+                <td>Páginas Web</td>
+                <td>20/05/2024 08:00</td>
+                <td class="success">Concluído</td>
+                <td>125 MB</td>
+            </tr>
+            <tr>
+                <td>Base de Dados</td>
+                <td>20/05/2024 08:15</td>
+                <td class="success">Concluído</td>
+                <td>240 MB</td>
+            </tr>
+            <tr>
+                <td>Configurações de Sistemas</td>
+                <td>20/05/2024 08:30</td>
+                <td class="success">Concluído</td>
+                <td>15 MB</td>
+            </tr>
+        </table>
+        
+        <p><b>Nota:</b> Esta página é apenas um exemplo estático. A página real será conectada ao banco de dados e exibirá informações dinâmicas sobre os backups.</p>
+    </div>
+</body>
+</html>
