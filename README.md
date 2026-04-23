@@ -38,6 +38,6 @@ Este repositório contém o **WebService** desenvolvido para a Inovacorp. Trata-
 
 -----
 
-Desenvolvido por KJBruninho ([https://github.com/KJBruninho](https://www.google.com/search?q=https://github.com/KJBruninho))
+Desenvolvido por [Bruno Marinho](https://github.com/KJBruninho)
 
 -----
